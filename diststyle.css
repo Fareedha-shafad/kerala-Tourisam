@@ -1,0 +1,21 @@
+.backbtnstyle{
+    
+    font-style: oblique;
+    font-weight: bolder;
+    background-color:purple;
+    margin: 0;
+    padding:12px;
+   
+    float: right;
+}
+
+body {
+    position: relative; 
+}
+.fillwidth {
+    width: 100%;
+    height: auto;
+}
+#sticky-footer {
+    flex-shrink: none;
+  }

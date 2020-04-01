@@ -1,0 +1,16 @@
+body html{
+    margin: 0;
+    padding: 0;
+
+}
+.bgimage{
+    background-image: url('IMAGES\teahillsmunnar.jpg');
+    background-size: cover;
+}
+.mycorousel{
+    width: 60%;
+    height: 20%;
+}
+#sticky-footer {
+    flex-shrink: none;
+  }
