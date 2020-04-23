@@ -8,9 +8,10 @@ body html{
     background-size: cover;
 }
 .mycorousel{
-    width: 60%;
+    width: 60%; 
     height: 20%;
 }
 #sticky-footer {
     flex-shrink: none;
   }
+  
