@@ -38,13 +38,14 @@
         </li>
       </ul>
    </div>
-    <div class="login-container">
-      <form >
-        <input type="text" placeholder="Username" name="username">
-        <input type="text" placeholder="Password" name="psw">
-        <a button type="submit" href="home.html">Login</button></a>
+<!-- login part -->
+      <form name="loginform"  action="home.html" onsubmit="return validate()">
+        <input type="email" placeholder="Email" id="email">
+        <input type="password" placeholder="Password" id="psw">
+       <input type="submit" value="Login" id="submit">
+       <label id="error"></label>
      </form>
-    </div>
+   <!-- login part ends here -->
       <div class="newacc_btn">
         <a class="nav-link" href="signup.html">new acount</a>
       </div>
@@ -87,6 +88,10 @@
       <small>Copyright &copy; fareedhaFSD</small>
     </div>
   </footer>
-</body>
+  <!-- <script src="script.js"></script>
+  </script>
+</body> -->
 
+<script type="text/javascript" src="script.js">
+  </script>
 </html>
